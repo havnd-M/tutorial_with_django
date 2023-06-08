@@ -128,8 +128,15 @@ STATICFILES_DIRS = [os.path.join(
     BASE_DIR, '/home/hvnd/Desktop/django-income-expens-website//expenseswebsite/expenseswebsite/static/')]
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
+<<<<<<< HEAD
 django_heroku.settings(locals())
 
+=======
+
+django_heroku.settings(locals())
+
+
+>>>>>>> 57dda161c6d21e59186918d044a49b93d6dabe2b
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
